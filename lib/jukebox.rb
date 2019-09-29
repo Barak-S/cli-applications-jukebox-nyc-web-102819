@@ -23,10 +23,13 @@ puts "- exit : exits this program"
 end
 
 def list(songs)
-  songs.each { |song, location|
-    puts song
-    }
+  i=0
+  while i<songs.length do
+    songs.each do |song|
+    puts "#{song[i]}. #{song}"
+  end
+end 
 end
-
+end
 
 
