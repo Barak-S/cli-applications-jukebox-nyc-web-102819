@@ -1,5 +1,5 @@
 # Add your code here
-require_relative "../lib/advanced_jukebox"
+
 # 4 commands: help, list, play, exit_jukebox , --- run calls on all other methods
 
 songs = [
