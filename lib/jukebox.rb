@@ -53,7 +53,8 @@ def run(songs)
   user_command = gets.strip
   case user_command
   when 'list'
-    li
+    list(songs)
+    
   
   
   
