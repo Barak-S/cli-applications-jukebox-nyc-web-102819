@@ -49,7 +49,6 @@ end
 def run(songs)
   user_command = ""
   while user_command
-  
   puts "Please enter a command:"
   
   
