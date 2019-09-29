@@ -52,7 +52,8 @@ def run(songs)
   puts "Please enter a command:"
   user_command = gets.strip
   case user_command
-  when 
+  when 'list'
+    li
   
   
   
