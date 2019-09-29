@@ -22,14 +22,9 @@ puts "- play : lets you choose a song to play"
 puts "- exit : exits this program"
 end
 
-def list(songs)
-  i=0
-  while i<songs.length do
-    songs.each do |song|
-    puts "#{song[i]}. #{song}"
-  end
+def list(songs) 
+  songs.each_with_index { |item, index|
+    puts "#{index+1}. #{item}" 
+  }
 end 
-end
-end
-
 
