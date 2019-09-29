@@ -41,3 +41,6 @@ def play(songs)
   end 
 end 
 
+
+def exit 
+
