@@ -51,6 +51,8 @@ def run(songs)
   while user_command
   puts "Please enter a command:"
   user_command = gets.strip
+  case user_command
+  when 
   
   
   
