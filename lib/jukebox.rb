@@ -28,7 +28,16 @@ def list(songs)
   }
 end 
 
-def play
+def play(songs)
+  puts "Please enter a song name or number:"
+  user_response = gets.downcase.chomp 
   
-end
+  if (1..9).to_a.include?(user_response.to_i)
+    puts "Playing #{songs[user_response.to_i - 1]}"
+    elsif songs.include?(user_response)
+    puts "Playing #{user_response}"
+  else 
+    puts "Invalid input, please try again"
+  end 
+end 
 
